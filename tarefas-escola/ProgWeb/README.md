@@ -3,3 +3,5 @@ https://github.com/ronildo-ferreira/ronildo-human-layer/blob/main/universe-zaion
 
 # Trabalhos 1 Bimestre
 - https://github.com/ronildo-ferreira/ronildo-human-layer/tree/main/01-EtecVAV/1C3/pw1-progamacao-web/1BIM
+
+#atividade 1 - activities/html-css/ACT-HTML-001-introducao-web-e-seus-padroes.md
