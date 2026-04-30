@@ -1,0 +1,27 @@
+entra no CMD
+
+cd donwloads 
+
+git clone https://github.com/gabriel-felipe00/EtecVAV.git
+
+cd EtecVAV
+
+git config --global user.email "gmail"
+git config --global user.name "nome"
+
+
+
+
+
+
+git status
+
+
+
+
+
+
+git add .
+git commit -m " escrever oque foi feito"
+git push origin main
+
