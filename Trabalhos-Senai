@@ -1,1 +1,25 @@
+Trabalho.exp
+#Atividade1- Colab
 
+# biblioteca.py
+
+class Aluno:
+    def __init__(self, nome, nota):
+        self.nome = nome
+        self.nota = nota
+
+    def mostrar_dados(self):
+        print(f"Aluno: {self.nome} | Nota: {self.nota}")
+
+
+# Criando os alunos
+aluno1 = Aluno("Carlos", 8.5)
+aluno2 = Aluno("Marina", 9.0)
+aluno3 = Aluno("João", 7.8)
+
+# Biblioteca de alunos
+biblioteca = [aluno1, aluno2, aluno3]
+
+# Mostrar todos os alunos
+for aluno in biblioteca:
+    aluno.mostrar_dados()
