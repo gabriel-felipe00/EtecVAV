@@ -9,17 +9,7 @@ cd EtecVAV
 git config --global user.email "gmail"
 git config --global user.name "nome"
 
-
-git clone
-
-
-
-
 git status
-
-
-
-
 
 
 git add .
