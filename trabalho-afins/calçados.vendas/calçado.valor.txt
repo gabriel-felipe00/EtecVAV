@@ -1,0 +1,42 @@
+ # importante a classe LinearRegression para criar o modelo de regressão linear.
+
+from sklearn.linear_model import LinearRegression
+
+  # biblioteca Numpy para manipulação de arrays numericos
+
+import numpy as np
+
+ # Dados simulados (contextualizados)
+
+  # prever a venda de uma loja de sapatos (calçados")
+
+  # "calçados" será nossa variável idependente (x) que influencia as valor
+  # cada valor é colocado dentro de uma lista para formar uma matriz 2D, como o scikit-learn espera
+calçados = np.array([[37],[39],[42],[44],[46]])
+
+  # "valor" representa nossa variável dependente (Y), que é o numero de sorvetes vendido
+  # suponha que coletamos esses dados em dias diferentes
+valor = np.array([[180],[210],[240],[280],[300]])
+
+
+# 2. Criação do modelo de regressão linear
+
+modelo = LinearRegression()
+
+# 3.treinamento (ajuste) do modelo
+
+# aqui, o modelo encontra a melhor linha que explica a relação entre calça e vendas
+
+modelo.fit(calçados,valor)
+
+# 4. previsão com modelo treinado
+
+# agora vamos prever quantas calçados serão vendidos se o calçado for numero 40
+
+#novamente, passamos [[40]] no formato de matriz 2D
+
+vendas_previstas = modelo.predict([[40]])
+
+# 5. Exibição do resultados
+valor = round(vendas_previstas[0][0])
+print(f"Valor previstas para n 40,  {valor} calçados")

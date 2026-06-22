@@ -1,0 +1,44 @@
+  # importante a classe linearRegression para criar o modelo de regressão linear.
+ 
+ from skilearn. linear_model import linearRegression
+ 
+  # biblioteca Numpy para manipulação de arrays numericos
+ 
+  # import numpy as np
+ 
+  o dos dados simulados (contextualizados)
+ 
+  # prever a venda de sorvetes com base na temperatura (em graus celsius)
+ 
+  # "temperatura" será nossa variável idependente (x) que influencia as vendas 
+  # cada valor é colocado dentro de uma lista para formar uma matriz 2D, como o sc
+ 
+  temperatura = np.array([20],[22],[24],[26], [28])
+ 
+  representa nossa variável dependente (Y), que é o numero de sorvetes vendido
+  # suponha que coletamos esses dados em dias diferentes
+ 
+
+vendas= np.array([200],220],240],260],280])
+
+
+# 2. Criação do modelo de regressão linear
+modelo = Linear
+
+modelo = LinearRegression()
+
+# 3.treinamento (ajuste) do modelo
+
+# aqui, o modelo encontra a melhor linha que explica a relação entre temperatura
+
+modelo.fit( temperatura, vendas)
+
+# 4. previsão com modelo trenado
+
+# agora vamos prever quantas sorvetes serão vendidos se a temperatura for 30°C.
+
+#novamente, passamos [(30)] no formato de matriz 2D
+
+vendas previstas =modelo.predict([[30]])
+
+# 5. Exibição do resultados
